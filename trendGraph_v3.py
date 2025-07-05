@@ -118,7 +118,7 @@ if uploaded_file and start_date and DAYS:
 
         with col3:
         
-            st.subheader("Axix range")
+            st.subheader("Axis range")
             host.set_xlim(0, 24*DAYS)
             host.set_xticks([i*24 for i in range(DAYS + 2)]) # Set the tick mark interval to be 24
             (TEMP_LB, TEMP_UB) = (0, 40)
